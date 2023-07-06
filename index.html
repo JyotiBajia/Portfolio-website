@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2af1055674.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+            <nav class="nav">
+                
+                
+                    <a href="#header">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#Education">Education</a>
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <!-- <p>Student</p> -->
+                
+                <h1 class="hi">Hi!<span class="jyoti"> I'm JYOTI :) </span><br> <span class="web">Web Development Intern
+                     and an enthusiastic learner</span>
+                </h1>
+            </div>
+        </div>
+    
+    <!----------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/home img.jpg" width="300px" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p class="about_me"> My Name is Jyoti.I am from Rajasthan.Currently pursuing BE in Computer Science from Chandigarh University(Punjab).I have an interest in Web Development and Artificial Intelligence.
+                        An innovative individual ,desirous to find the job position of a Software Engineer to apply my knowledge of design, development,coding and quality testing of software as per client’s requirements.
+                        I love to read novels and listen to music . 
+                    </p>
+                    
+                            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------Projects--------------->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="Projects-list">
+                <div>
+                    <i class="fa-solid "></i>
+
+                    <h2 class="under">Under Water Wireless Sensor Networks</h2>
+                    <p>Wireless sensor network (WSN) is a network use to monitor aquatic environment by sensing, collecting and transferring data wirelessly to User in real time. UWSN technologies are implemented in deep underwater with sensors using acoustic signals to perform communication.
+                        </p>
+                        <br>
+                    <img class="image" src="images/project1.png" height=40% width=100%>
+                </div>
+                <div>
+                    <i class="fa-solid "></i>
+
+                    <h2>Google Trends</h2>
+                    <p>Google Trends is a website by Google that analyzes the popularity of top search queries in Google Search across various regions and languages. The website uses graphs to compare the search volume of different queries over time.Google Trends also allows the user to compare the relative search volume of searches between two or more terms.
+
+                    </p> <br>
+                  <img src="images/google trends.png" alt="" width=100%>
+                </div>
+                <div>
+                    <i class="fa-solid fa-simple"></i>
+
+                    <h2>Image Encryption & Decryption</h2>
+                    <p>It requires two things, data, and key, and when XOR operation is applied on both the operands i.e data and key, the data gets encrypted but when the same process is done again with the same key-value data gets decrypted. </p>
+                        <br>
+                        <img src="images/images.png" width=100%>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------Education--------------------->
+    <div id="Education">
+    <div class="Education">
+   <div class="education_1">
+    <h1 class="edu" >Education</h1>
+   <img id="box" src="images/cu.png" alt="" width:20px;><br> <br><br>
+   <p class="BE"> Pursuing Bachelor’s of Engineering in Computer Science | Chandigarh University,Gharuan<br>
+    Session: 2021-2025 | Score: 8.26 CGPA</p></div>
+    <div class="education_1">
+        <img id="box" src="images/NSP.png" alt="" ><br> <br><br>
+        <p class="inter">Intermediate (RBSE) |NSP School, Rawatsar (Rajasthan)<br>
+            Session: 2019-2020| Percentage: 94.40%</p>
+        
+    </div>
+    <div class="education_1">
+        <img id="box" src="images/noble.jpg" alt=""><br><br><br>
+        <p class="matric"> Matriculation (RBSE) | Noble Central Academy Sec. School, Rawatsar<br>
+            Session: 2017-2018 | Percentage: 89.17%</p>
+    </div>
+</div>
+</div>
+    <br><br><br>
+    <!-----------------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>jyot8489@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+919079194180</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/jyoti-bajia-9002b1231/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://t.me/jyot_123" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://www.instagram.com/jyoti_.9079/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                    </div> <br>
+                    <a href="https://drive.google.com/file/d/19RuZkGx6BWA8D-csuD-DnPEG3SMXzDyN/view?usp=drivesdk" target="_blank" download class="btn_btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div><br> <br><br><br><br> <br> <br><br>
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#" class="flex-align-left">&copy; 2020 | Jyoti</a>
+        </footer>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemeu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemeu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwMBhZ3pYH7_RyKH_NWlDnDpfV7T09DWIvwUMU80Pw_k00BMIup5PKkrtq9Ijtnz6T_/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, {
+                        method: 'POST',
+                        body: new FormData(form)
+                    })
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function() {
+                            msg.innerHTML = ""
+                        }, 3000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
